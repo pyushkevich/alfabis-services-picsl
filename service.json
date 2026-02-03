@@ -1,0 +1,30 @@
+{
+  "name": "ASHS-HSG-Body",
+  "version": "1.0.0",
+  "keywords": [
+    "hippocampus",
+    "subfields",
+    "dementia",
+    "brain",
+    "mtl",
+    "harmonization"
+  ],
+  "shortdesc": "Hippocampal subfields segmentation in 3T T2-MRI (HSG Body Protocol, 2025)",
+  "longdesc": "Automatic segmentation of hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the atlas created by the Hippocamal Subfields Group's harmonized body protocol (Daugherty et al., 2026)",
+  "citation": "https://pubmed.ncbi.nlm.nih.gov/40654693/",
+  "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
+  "tags": [
+    {
+      "name": "T2-MRI",
+      "type": "MainImage",
+      "hint": "A high-resolution (e.g., 0.4x0.4x2.0mm^3) T2-weighted MRI scan with oblique coronal orientation parallel to hippocampal main axis. This scan must be the main image in the workspace.",
+      "required": true
+    },
+    {
+      "name": "T1-MRI",
+      "type": "OverlayImage",
+      "hint": "Roughtly isotropic (e.g., 1x1x1mm^3) T1-weighted MRI scan of the whole brain.",
+      "required": true
+    }
+  ]
+}
