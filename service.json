@@ -1,6 +1,6 @@
 {
-  "name": "ASHS-HSG-Body",
-  "version": "1.0.0",
+  "name": "HyperASHS-HSG-Body",
+  "version": "2026.1.0",
   "keywords": [
     "hippocampus",
     "subfields",
@@ -11,7 +11,7 @@
   ],
   "shortdesc": "Hippocampal subfields segmentation in 3T T2-MRI (HSG Body Protocol, 2025)",
   "longdesc": "Automatic segmentation of hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the atlas created by the Hippocamal Subfields Group's harmonized body protocol (Daugherty et al., 2026)",
-  "citation": "https://pubmed.ncbi.nlm.nih.gov/40654693/",
+  "citation": "https://arxiv.org/abs/2508.17171",
   "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
   "tags": [
     {
