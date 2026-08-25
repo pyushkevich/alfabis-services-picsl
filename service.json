@@ -1,23 +1,18 @@
 {
-  "name": "ASHS-HSG-Body",
-  "version": "1.0.0",
+  "name": "HyperASHS-Choroid",
+  "version": "2026.1.0",
   "keywords": [
-    "hippocampus",
-    "subfields",
-    "dementia",
-    "brain",
-    "mtl",
-    "harmonization"
+    "choroid plexus"
   ],
-  "shortdesc": "Hippocampal subfields segmentation in 3T T2-MRI (HSG Body Protocol, 2025)",
-  "longdesc": "Automatic segmentation of hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the atlas created by the Hippocamal Subfields Group's harmonized body protocol (Daugherty et al., 2026)",
-  "citation": "https://pubmed.ncbi.nlm.nih.gov/40654693/",
-  "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
+  "shortdesc": "DetreLab 3T FLAIR/T1-MRI atlas for Choroid Plexus Segmentation with HyperASHS",
+  "longdesc": "This atlas is designed for the HyperASHS project and is based on Choroid Plexus segmentation by Manuel Taso.",
+  "citation": "https://arxiv.org/abs/2508.17171",
+  "url": "https://github.com/pyushkevich/hyperresashs",
   "tags": [
     {
-      "name": "T2-MRI",
+      "name": "FLAIR",
       "type": "MainImage",
-      "hint": "A high-resolution (e.g., 0.4x0.4x2.0mm^3) T2-weighted MRI scan with oblique coronal orientation parallel to hippocampal main axis. This scan must be the main image in the workspace.",
+      "hint": "A whole-brain FLAIR MRI. This scan must be the main image in the workspace.",
       "required": true
     },
     {
