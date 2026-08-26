@@ -1,6 +1,6 @@
 {
   "name": "HyperASHS-PMC",
-  "version": "2026.1.0",
+  "version": "2026.2.0",
   "keywords": [
     "hippocampus",
     "subfields",
@@ -9,7 +9,7 @@
     "mtl",
     "harmonization"
   ],
-  "shortdesc": "Hippocampal and MTL subfields segmentation in 3T T2-MRI",
+  "shortdesc": "MTL subfield segmentation in T2-MRI using PMC 3T atlas",
   "longdesc": "Automatic segmentation of MTL subregions and hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the Penn Memory Center protocol (Yushkevich et al., 2014)",
   "citation": "https://arxiv.org/abs/2508.17171",
   "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
