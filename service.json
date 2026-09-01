@@ -1,6 +1,6 @@
 {
-  "name": "HyperASHS-PMC",
-  "version": "2026.2.0",
+  "name": "HyperASHS-PMC-T1",
+  "version": "2026.1.0",
   "keywords": [
     "hippocampus",
     "subfields",
@@ -9,17 +9,11 @@
     "mtl",
     "harmonization"
   ],
-  "shortdesc": "MTL subfield segmentation in T2-MRI using PMC 3T atlas",
-  "longdesc": "Automatic segmentation of MTL subregions and hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the Penn Memory Center protocol (Yushkevich et al., 2014)",
+  "shortdesc": "MTL subfield segmentation in T1-MRI using PMC 3T atlas",
+  "longdesc": "Automatic segmentation of MTL subregions and anterior/posterior hippocampus in isotropic T1-weighted 3 Tesla MRI scans, using the Penn Memory Center protocol (Yushkevich et al., 2014)",
   "citation": "https://arxiv.org/abs/2508.17171",
   "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
   "tags": [
-    {
-      "name": "T2-MRI",
-      "type": "MainImage",
-      "hint": "A high-resolution (e.g., 0.4x0.4x2.0mm^3) T2-weighted MRI scan with oblique coronal orientation parallel to hippocampal main axis. This scan must be the main image in the workspace.",
-      "required": true
-    },
     {
       "name": "T1-MRI",
       "type": "OverlayImage",
