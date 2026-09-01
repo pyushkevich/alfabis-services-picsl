@@ -16,7 +16,7 @@
   "tags": [
     {
       "name": "T1-MRI",
-      "type": "OverlayImage",
+      "type": "MainImage",
       "hint": "Roughtly isotropic (e.g., 1x1x1mm^3) T1-weighted MRI scan of the whole brain.",
       "required": true
     }
