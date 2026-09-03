@@ -1,6 +1,6 @@
 {
   "name": "HyperASHS-PMC-T1",
-  "version": "2026.1.0",
+  "version": "2026.2.0",
   "keywords": [
     "hippocampus",
     "subfields",
@@ -9,8 +9,8 @@
     "mtl",
     "harmonization"
   ],
-  "shortdesc": "MTL subfield segmentation in T1-MRI using PMC 3T atlas",
-  "longdesc": "Automatic segmentation of MTL subregions and anterior/posterior hippocampus in isotropic T1-weighted 3 Tesla MRI scans, using the Penn Memory Center protocol (Yushkevich et al., 2014)",
+  "shortdesc": "MTL subfield and hippocampus segmentation in ~1mm T1-MRI using HyperASHS with PMC 3T unified atlas",
+  "longdesc": "Automatic segmentation of MTL subregions and hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the 2026 unified atlas from the Penn Memory Center. The  (Xie et al., 2019) T1-ASHS atlas has been extended to incorporate anterior MTL cortex and amygdala (Sadeghpour et al., 2025) and is consistent with the T2/T1 HyperASHS-PMC atlas.",
   "citation": "https://arxiv.org/abs/2508.17171",
   "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
   "tags": [
