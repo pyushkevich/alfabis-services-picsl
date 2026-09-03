@@ -9,8 +9,8 @@
     "mtl",
     "harmonization"
   ],
-  "shortdesc": "MTL subfield segmentation in T2-MRI using PMC 3T atlas",
-  "longdesc": "Automatic segmentation of MTL subregions and hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the Penn Memory Center protocol (Yushkevich et al., 2014)",
+  "shortdesc": "Hippocampal and MTL subfield segmentation in high-res T2-MRI using HyperASHS with PMC 3T unified atlas",
+  "longdesc": "Automatic segmentation of MTL subregions and hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the 2026 unified atlas from the Penn Memory Center (Yushkevich et al., 2015). The atlas has been extended to incorporate anterior MTL cortex and amygdala (Sadeghpour et al., 2025) and is consistent with the T1-only HyperASHS PMC atlas.",
   "citation": "https://arxiv.org/abs/2508.17171",
   "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
   "tags": [
