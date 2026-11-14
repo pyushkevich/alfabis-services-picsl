@@ -1,29 +1,25 @@
 {
-  "name": "ASHS-HSG-Body",
+  "name": "WildCat-WSI",
   "version": "1.0.0",
   "keywords": [
-    "hippocampus",
-    "subfields",
-    "dementia",
-    "brain",
-    "mtl",
-    "harmonization"
+    "histology",
+    "segmentation"  
   ],
-  "shortdesc": "Hippocampal subfields segmentation in 3T T2-MRI (HSG Body Protocol, 2025)",
-  "longdesc": "Automatic segmentation of hippocampal subfields in high-resolution T2-weighted 3 Tesla MRI scans, using the atlas created by the Hippocamal Subfields Group's harmonized body protocol (Daugherty et al., 2026)",
-  "citation": "https://pubmed.ncbi.nlm.nih.gov/40654693/",
-  "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
+  "shortdesc": "WildCat whole-slide histology object detection",
+  "longdesc": "Detection of pathological objects in whole-slide histology scans (Yushkevich et al., Brain, 2021)",
+  "citation": "https://doi.org/10.1093/brain/awab262",
+  "url": "https://github.com/pyushkevich/tangle-cnn-prod",
   "tags": [
     {
-      "name": "T2-MRI",
+      "name": "WSI",
       "type": "MainImage",
-      "hint": "A high-resolution (e.g., 0.4x0.4x2.0mm^3) T2-weighted MRI scan with oblique coronal orientation parallel to hippocampal main axis. This scan must be the main image in the workspace.",
+      "hint": "A URL or path of a histology slide",
       "required": true
     },
     {
-      "name": "T1-MRI",
+      "name": "DensityMap",
       "type": "OverlayImage",
-      "hint": "Roughtly isotropic (e.g., 1x1x1mm^3) T1-weighted MRI scan of the whole brain.",
+      "hint": "A URL or path for the output density map",
       "required": true
     }
   ]
