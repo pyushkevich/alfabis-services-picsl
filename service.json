@@ -1,20 +1,14 @@
 {
-  "name": "HyperASHS-Choroid",
+  "name": "HyperASHS-Choroid-T1",
   "version": "2026.1.0",
   "keywords": [
     "choroid plexus"
   ],
-  "shortdesc": "DetreLab 3T FLAIR/T1-MRI atlas for Choroid Plexus Segmentation with HyperASHS",
+  "shortdesc": "DetreLab 3T T1-MRI atlas for Choroid Plexus Segmentation with HyperASHS",
   "longdesc": "This atlas is designed for the HyperASHS project and is based on Choroid Plexus segmentation by Manuel Taso.",
   "citation": "https://arxiv.org/abs/2508.17171",
   "url": "https://github.com/pyushkevich/hyperresashs",
   "tags": [
-    {
-      "name": "FLAIR",
-      "type": "MainImage",
-      "hint": "A whole-brain FLAIR MRI. This scan must be the main image in the workspace.",
-      "required": true
-    },
     {
       "name": "T1-MRI",
       "type": "OverlayImage",
